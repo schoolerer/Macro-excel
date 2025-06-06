@@ -1,0 +1,13 @@
+Sub auto_open()
+MsgBox "Welcome to the excel engine"
+End Sub
+
+Sub auto_close()
+MsgBox "Exiting excel make sure to save your excel sheet file"
+End Sub
+
+Sub CellRerencing()
+ActiveCell.Value = "Game"
+[C1].Value = "Fn"
+[D1].Value = "Sethly"
+End Sub
