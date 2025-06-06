@@ -1,0 +1,3 @@
+Function User()
+User = Application.UserName
+End Function
